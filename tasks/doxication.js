@@ -1,4 +1,4 @@
-/* grunt-doxication 0.0.2
+/* grunt-doxication 0.0.3
  * Copyright © 2014 Gion Kunz
  * Free to use under the WTFPL license.
  * http://www.wtfpl.net/
