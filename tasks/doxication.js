@@ -1,4 +1,4 @@
-/* grunt-doxication 0.0.3
+/* grunt-doxication 0.0.4
  * Copyright © 2014 Gion Kunz
  * Free to use under the WTFPL license.
  * http://www.wtfpl.net/
@@ -48,8 +48,6 @@ module.exports = function (grunt) {
     if (path.extname(dest) === '' || (fs.existsSync(dest) && fs.statSync(dest).isDirectory())) {
       dest = path.join(dest, [options.fileName, options.format].join('.'));
     }
-
-    console.log(dest);
 
     mkdirp(path.dirname(dest), function (err) {
       if (err) {

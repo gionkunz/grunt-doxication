@@ -1,7 +1,7 @@
 {
   "name": "grunt-doxication",
   "description": "Dox grunt plugin that does write file array wrapped dox objects to JSON or YAML",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/gionkunz/grunt-doxication",
   "author": {
     "name": "Gion Kunz",
@@ -20,7 +20,6 @@
       "url": "https://github.com/gionkunz/grunt-doxication/blob/master/LICENSE"
     }
   ],
-  "main": "tasks/doxication",
   "engines": {
     "node": "*"
   },
